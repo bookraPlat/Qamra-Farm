@@ -26,7 +26,6 @@ body{
         unicode-bidi: bidi-override;
         line-height: 1;
         justify-self: flex-end;
-        align-self: flex-end;
     }
 
     .english-text{
@@ -1807,4 +1806,5 @@ p.gallery-category-active{
 .step1-text, .step2-text, .step3-text {
     display: flex;
     flex-direction: column;
+
 }
