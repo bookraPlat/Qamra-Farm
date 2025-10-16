@@ -57,7 +57,7 @@ const testimonialContainer = document.querySelector('.testimonial-box');
 const totalScrollWidth = container.scrollWidth;
 const containerWidth = container.offsetWidth;
 let scrollPosition = 0;
-const scrollSpeed = 0.9; // pixels per frame, adjust as needed
+const scrollSpeed = 1.1; // pixels per frame, adjust as needed
 
 function autoScroll() {
   scrollPosition += scrollSpeed;
@@ -2591,6 +2591,7 @@ function someConditionIsTrue() {
 // Example usage (assuming someVariable is a global variable)
 let oldValue = 0;
 let someVariable = 1;
+
 
 
 
