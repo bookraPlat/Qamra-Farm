@@ -282,7 +282,7 @@ function currentLanguage() {
         checkNoText.innerText = 'لا';
 
         const nONDropDownTitle = document.querySelector('.amount-of-nights-title');
-        nONDropDownTitle.innerText = "عدد الليالي المطلوب";
+        nONDropDownTitle.innerText = "عدد الليالي المطلوبة";
         nONDropDownTitle.style.direction = 'rtl';
 
         const aOFDropDownContainer = document.querySelector('.aof-dropdown');
@@ -669,7 +669,7 @@ function switchLanguage(){
         checkNoText.innerText = 'لا';
         
         const nONDropDownTitle = document.querySelector('.amount-of-nights-title');
-        nONDropDownTitle.innerText = "عدد الليالي المطلوب";
+        nONDropDownTitle.innerText = "عدد الليالي المطلوبة";
         nONDropDownTitle.style.direction = 'rtl';
 
         const aOFDropDownContainer = document.querySelector('.aof-dropdown');
@@ -2756,3 +2756,4 @@ currentLanguage();
 
 
     
+
